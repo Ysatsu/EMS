@@ -1,0 +1,59 @@
+/* delete-css */
+
+.header
+{
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background-color: #FFFF00;
+    border: solid 3px;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    width: 35%;
+    margin: 0 auto;
+    border-color: #00CCFF;
+}
+
+body
+{
+    font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN';
+}
+
+.contents
+{
+    padding-top: 5%;
+    padding-right: 5%;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.return
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btndelete
+{
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    font-size: 165%;
+    font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN';
+}
+.btndelete:hover
+{
+    background-position: -100% 0;
+    color: #fff;
+}
+
+.delete
+{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* end delete-css */

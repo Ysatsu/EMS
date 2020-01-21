@@ -1,0 +1,62 @@
+/* detail-css */
+.header
+	{
+		text-align: center;
+		padding: 0.5em 1em;
+	    margin: 2em 0;
+	    font-weight: bold;
+	    color: #000000;/*文字色*/
+	    background-color: #FFFF00;
+	    border: solid 3px;/*線*/
+	    border-radius: 10px;/*角の丸み*/
+	    width: 35%;
+	    margin: 0 auto;
+	    border-color: #00CCFF;
+	}
+
+	body
+	{
+		font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN';
+	}
+
+	.info
+	{
+		padding:3%;
+	}
+
+
+	.return
+	{
+		font-size: 20px;
+		position: absolute;
+		bottom: 20%;
+		right: 48%
+	}
+
+
+	.left
+	{
+		text-align: center;
+		font-size: 135%;
+		font-weight: bold;
+		padding-left: 35%;
+		float: left;
+	}
+
+	.right
+	{
+		text-align: center;
+		font-size: 135%;
+		font-weight: bold;
+		padding-right: 38%;
+		float: right;
+	}
+
+	a
+	{
+		display: block;
+		font-size: 130%;
+		padding-top: 1em;
+    }
+
+/* end detail-css */

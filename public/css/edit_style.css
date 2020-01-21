@@ -1,0 +1,117 @@
+/* edit-css  */
+
+.header
+{
+    margin-top: 10px;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background-color: #FFFF00;
+    border: solid 3px;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    width: 35%;
+    margin: 0 auto;
+    border-color: #00CCFF;
+}
+
+.info
+{
+    text-align: center;
+    padding:5%;
+}
+
+body
+{
+    font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN';
+}
+
+span
+{
+    font-size: 130%;
+    font-weight: bold;
+}
+.name input
+{
+    height:  3%;
+    font-size: 120%;
+    width: 13%;
+}
+
+.number
+{
+    padding-right: 5%;
+}
+
+.lname span
+{
+
+    padding-right: 10%;
+}
+
+.fname span
+{
+    padding-right: 10%;
+}
+
+.department span
+{
+    padding-right: 12%;
+}
+
+.gender span
+{
+    padding-right:16%;
+}
+
+
+.register
+{
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    font-size: 165%;
+    font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN';
+}
+.register:hover
+{
+    background-position: -100% 0;
+    color: #fff;
+}
+.sltDepartment
+{
+    font-size: 100%;
+}
+a
+{
+    display: block;
+    font-size: 130%;
+    padding-top: 1em;
+}
+
+.error
+{
+    font-size: 12px;
+    padding-left: 20%;
+    color: #FF0000;
+}
+.clear
+{
+    padding: 0 15px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    font-size: 130%;
+    font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN';
+}
+.clear:hover
+{
+    background-position: -100% 0;
+    color: #fff;
+}
+
+/* end edit-css */
